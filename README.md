@@ -92,15 +92,15 @@ The project highlights the trade-offs between different RNN architectures:
 
 ## How to Run
 
-Clone the repository.
-Download the Labeled Newscatcher Dataset (or similar news dataset) and place it in the input directory.
-Run news-classification-using-grus.ipynb.
-The notebook will train all three models (Single GRU, Double GRU, Bi-LSTM) and plot a comparison of their accuracy.
+* Clone the repository.
+* Download the Labeled Newscatcher Dataset (or similar news dataset) and place it in the input directory.
+* Run news-classification-using-grus.ipynb.
+* The notebook will train all three models (Single GRU, Double GRU, Bi-LSTM) and plot a comparison of their accuracy.
 
 ## Future Improvements
 
-Attention Mechanism: Implement a custom Attention layer on top of the Bi-LSTM to visualize which words the model focuses on for classification.
-Transformer Baseline: Compare these recurrent models against a small BERT-tiny or DistilBERT model to see if the transformer overhead is worth the performance gain.
+* Attention Mechanism: Implement a custom Attention layer on top of the Bi-LSTM to visualize which words the model focuses on for classification.
+* Transformer Baseline: Compare these recurrent models against a small BERT-tiny or DistilBERT model to see if the transformer overhead is worth the performance gain.
 
 ## References / Credits
 
